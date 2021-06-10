@@ -1,0 +1,11 @@
+.textField
+{
+    display: flex;
+    margin: auto;
+    width: 700px;
+    height: 220px;
+    background-color: rgb(168, 216, 216);
+    
+    padding: 10px;
+    border-radius: 10px;
+}
