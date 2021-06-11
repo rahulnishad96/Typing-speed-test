@@ -22,24 +22,14 @@ function TextInput() {
         var str2=event.target.value.split('');
         console.log(event.target.value);
         setTimerStatus(1);
-
-        //console.log(eneteredText);
-        //console.log(eneteredText.length);
-        //if(eneteredText.length!=0){
         let flag=0;
         for(let i=0;i<str2.length;i++)
         {
-            // console.log("going in loop");
-            // console.log(eneteredTextArr[i] + "===" + strArr[i]);
-            // console.log(str2[i] + "===" + strArr[i]);
-            //flag = (str2[i] != strArr[i] && str2[i]!=" ") &&  1;
             if(str2[i] != strArr[i])
             {
                 flag=1;
                 break;
             }
-            // if(strArr[i]===" " && color==='#dfffa0')
-            //     count++;
         }
          flag==0 ? setColor('#aadaa9') : setColor('#fcbea4');
 
@@ -71,8 +61,6 @@ function TextInput() {
             console.log(totalCorrectWord);
             setCount(totalCorrectWord);
             
-             //<span key={i} style={{backgroundColor: color}}>{eneteredTextArr[eneteredText.length-1]}</span>
-    //}
 }
  
 
